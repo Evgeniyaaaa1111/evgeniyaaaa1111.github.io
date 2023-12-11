@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+
+
+
+body {
+    font-family:Michroma,serif;
+    background: linear-gradient(90deg, #371497 0%, #0b0911 100%);
+}
+
+p{
+    color: rgb(24, 176, 214);
+
+}
+
+
+
+.nav-link {
+    color: rgb(24, 176, 214);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(109, 95, 95);
+}
+
+.navbar-brand img {
+    width: 45px;
+}
+
+.navbar-toggler {
+    background-color: rgb(109, 95, 95);
+}
+
+
+
+
+.sidebar{
+    color: rgb(24, 176, 214);
+    background: linear-gradient(270deg, #371497 0%, #0b0911 100%);
+
+
+}
+
+
+.card{
+    background: linear-gradient(270deg, #371497 0%, #0b0911 100%);
+    color: rgb(24, 176, 214);
+}
+.card a{
+    text-decoration: none;
+    color: rgb(24, 176, 214);
+
+}
+
+
+ 
+
+
+.slide-text,.footer-text {
+    color: rgb(24, 176, 214);
+    margin: auto auto;
+
+
+/* отображение на моб.устройствах */
+}@media(max-widht:755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+
+.footer-text a {
+    text-decoration: none;
+}
+
+.footer-text{
+
+}
+
+
+footer{
+    background: linear-gradient(270deg, #371497 0%, #0b0911 100%);
+ 
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.call-anim{
+    animation: call 2s ease 0s infinite normal forwards;}
+
+
+
+    @keyframes call {
+        0%,
+        100% {
+            transform: translateX(0);
+        }
+    
+        10%,
+        30%,
+        50%,
+        70% {
+            transform: translateX(-10px);
+        }
+    
+        20%,
+        40%,
+        60% {
+            transform: translateX(10px);
+        }
+    
+        80% {
+            transform: translateX(8px);
+        }
+    
+        90% {
+            transform: translateX(-8px);
+        }
+    }
+
+
+
+
+    .btn-outline-primary{
+        background: linear-gradient(270deg, #371497 0%, #0b0911 100%);
+
+    }
